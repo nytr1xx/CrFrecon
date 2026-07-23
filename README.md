@@ -11,6 +11,7 @@ When chromebooks die, they have a LITTLE bit of juice left in them. Just enough 
 CrFrecon directly ports Frecon to generic Linux, at least, Ubuntu. It most likely works on other distros but should be tested with caution.
 
 # Build
+## Keep in mind the commands here assume you are running them Ubuntu 26.04
 
 Add the universe repository:
 
@@ -49,7 +50,7 @@ Switch to any unoccupied virtual terminal (eg. tty3) and run:
 
 # Opening my test images :D
 
-Keep in mind the commands here assume you are in CrFrecon/frecon/
+## Keep in mind the commands here assume you are in CrFrecon/frecon/  
 Switch to your unoccupied virtual terminal and run:  
   
 `sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0xFFFFFFFF --image=img/BootLogoOld.png # for the old chromeOS boot logo`  
