@@ -1,6 +1,6 @@
 # CrFrecon
 
-I ported chromeOS Frecon to standard Linux. It's only been tested on Ubuntu 26.04 x86_64, so expect issues on other distros. I'll do more testing as time goes on
+I ported chromeOS Frecon to standard Linux. It's only been tested on Ubuntu 26.04 x86_64, so expect issues on other distros. I'll do more testing as time goes on. To know the syntax of Frecon, read the README.md inside frecon/.
 
 # What IS CrFrecon?
 
