@@ -44,5 +44,5 @@ Build it!:
 
 Switch to any unoccupied virtual terminal (eg. tty3) and run:
 
-```cd CrFrecon/frecon/ # or wherever you cloned CrFrecon```
+```cd CrFrecon/frecon/ # or wherever you cloned CrFrecon```   
 ```./frecon-lite --flags-go-here```
