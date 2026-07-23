@@ -9,7 +9,7 @@ Clone the repository (no duh)
 
 Go into the directory (duh)  
   
-`cd CrFrecon/frecon # or whatever path CrFrecon was copied into`
+`cd CrFrecon/frecon/ # or whatever path CrFrecon was copied into`
 
 Build it!  
   
