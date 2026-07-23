@@ -50,8 +50,11 @@ Switch to any unoccupied virtual terminal (eg. tty3) and run:
 # Opening my test images :D
 
 Keep in mind the commands here assume you are in CrFrecon/frecon/
-Switch to your unoccupied virtual terminal and run:
+Switch to your unoccupied virtual terminal and run:  
+  
+`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0xFFFFFFFF --image=img/BootLogoOld.png # for the old chromeOS boot logo`  
+  
+`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x00000000 --image=img/BatteryDeadRecreation.png # for the dead battery screen`  
+  
+`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x000000FF --image=img/Surprise.png # you can find out`  
 
-`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0xFFFFFFFF --image=img/BootLogoOld.png # for the old chromeOS boot logo`
-`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x00000000 --image=img/BatteryDeadRecreation.png # for the dead battery screen`
-`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x000000FF --image=img/Surprise.png # you can find out`
