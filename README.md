@@ -1,6 +1,6 @@
 # CrFrecon
 
-I ported chromeOS frecon to standard Linux. It's only been tested on Ubuntu 26.04 x86_64, so expect issues on other distros. I'll do more testing as time goes on
+I ported chromeOS Frecon to standard Linux. It's only been tested on Ubuntu 26.04 x86_64, so expect issues on other distros. I'll do more testing as time goes on
 
 # What IS CrFrecon?
 
@@ -53,11 +53,15 @@ Switch to any unoccupied virtual terminal (eg. tty3) and run:
 
 ## Keep in mind the commands here assume you are in CrFrecon/frecon/!  
 
-Switch to your unoccupied virtual terminal and run:  
+To open the old chromeOS boot splash:  
   
 `sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0xFFFFFFFF --image=img/BootLogoOld.png # for the old chromeOS boot logo`  
   
-`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x00000000 --image=img/BatteryDeadRecreation.png # for the dead battery screen`  
+To open the low battery splash:  
   
-`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x000000FF --image=img/Surprise.png # you can find out`  
+`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x00000000 --image=img/BatteryDeadRecreation.png # for the dead battery screen`  
+
+To open a surprise splash:
+  
+`sudo ./frecon-lite --enable-vt1 --enable-osc --clear=0x000000FF --image=img/SurpriseTest.png # you can find out`  
 
